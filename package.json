@@ -1,0 +1,17 @@
+{
+  "name": "simpleblog",
+  "version": "1.0.0",
+  "description": "Blog sederhana dengan Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": ["blog", "tailwind"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
